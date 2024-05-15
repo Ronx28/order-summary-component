@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: lightblue;
+}
+
+.container{
+    margin: 15rem auto;
+    background-color: #fff;
+    width: 450px;
+    height: 800px;
+    border-radius: 1rem;
+}
+
+.images{
+    height: 220px;;
+    background-image: url(../images/banner.svg);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.text{ 
+   margin: 4rem 2rem;
+   text-align: center;
+}
+
+.tittle{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text p{
+ margin-top: 2rem;
+}
+
+.main{
+    margin: 4rem 2rem 2rem 2rem;
+    height: 130px;
+    background-color: #F2F3F4 ;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main .icon img{
+    width: 70px;
+    margin-right: 30px;
+    
+}
+
+.change p a{
+    margin-left: 100px;
+}
+
+.text-main .plan{
+    font-weight: bold;
+}
+
+.change p a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.change p a:hover{
+    color: blue;
+}
+
+
+.button{
+    margin: 0 2rem 3rem 2rem;
+    
+}
+
+.button button{
+    display: block ;
+    margin: auto;
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button button a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button button:hover{
+    background-color: blue;
+}
+
+.cancle{
+    margin: 0 2rem 3rem 2rem;
+    display: flex;
+    margin: auto;
+}
+
+.cancle a{
+    display: block;
+    margin: auto;
+    color: black;
+}
+
+.cancle a:hover{
+    color: blueviolet;
+}
